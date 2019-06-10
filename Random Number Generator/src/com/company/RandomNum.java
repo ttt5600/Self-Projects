@@ -1,34 +1,11 @@
 package com.company;
 
 import javax.swing.*;
-/**
-import java.awt.*;
-*/
 import java.util.Random;
 
 public class RandomNum {
 
-    /**
-    JFrame screen = new JFrame("RandomNUM");
-    JPanel window = new JPanel(new FlowLayout());
-    JOptionPane upperBound = new JOptionPane("Upper");
-    JOptionPane lowerBound = new JOptionPane("Lower");
-    JLabel label = new JLabel();
-    */
-
     public void RandomNum() {
-        /**
-        window.add(label);
-
-        int width = 1024;
-        int height = width/16*10;
-
-        screen.setSize(width,height);
-        screen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        window.add(upperBound);
-        window.add(lowerBound);
-        */
         while(true) {
             try {
                 String upper = JOptionPane.showInputDialog("Upper");
@@ -61,11 +38,5 @@ public class RandomNum {
             }
         }
         System.exit(0);
-        /**
-        window.setBackground(Color.gray);
-        screen.add(window);
-        screen.setBackground(Color.GREEN);
-        screen.setVisible(true);
-         */
     }
 }
